@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>History of Sigiriya | The Lion Rock</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f1eb;
+            color: #263746;
+        }
+
+        /* Navigation */
+        nav {
+            background: #17232d;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 25px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #e9b873;
+        }
+
+        /* Header */
+        .hero {
+            background: linear-gradient(
+                rgba(20, 35, 45, 0.78),
+                rgba(20, 35, 45, 0.78)
+            ),
+            url("sigiriya.jpg");
+
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-family: Georgia, serif;
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        /* History section */
+        .history {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 25px;
+        }
+
+        .history h2 {
+            font-family: Georgia, serif;
+            font-size: 40px;
+            text-align: center;
+            color: #334e5c;
+        }
+
+        .history h2::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: #d9a45b;
+            margin: 15px auto 35px;
+        }
+
+        .history p {
+            font-size: 18px;
+            line-height: 1.9;
+            text-align: justify;
+            color: #4b555b;
+        }
+
+        /* Photos */
+        .photos {
+            max-width: 1100px;
+            margin: 70px auto;
+            padding: 0 25px;
+        }
+
+        .photos h2 {
+            text-align: center;
+            font-family: Georgia, serif;
+            font-size: 38px;
+            color: #334e5c;
+            margin-bottom: 35px;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .photo-grid img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.18);
+            transition: 0.3s;
+        }
+
+        .photo-grid img:hover {
+            transform: scale(1.03);
+        }
+
+        /* Back button */
+        .back {
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .back a {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #e8b56f;
+            color: #17232d;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back a:hover {
+            background: #d99b4d;
+            transform: translateY(-2px);
+        }
+
+        /* Mobile */
+        @media (max-width: 750px) {
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .photo-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index1.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="features.html">Features</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <section class="hero">
+        <h1>The History of Sigiriya</h1>
+        <p>
+            Discover the remarkable story behind Sri Lanka's ancient Lion Rock.
+        </p>
+    </section>
+
+    <section class="history">
+
+        <h2>A Fortress Above the Clouds</h2>
+
+        <p>
+            Sigiriya is one of Sri Lanka's most remarkable historical and
+            archaeological sites. Rising approximately 180 metres above the
+            surrounding plains, the massive rock became an important centre of
+            power during the fifth century CE. Its most famous period began
+            during the reign of King Kashyapa I, who ruled Sri Lanka from
+            approximately 477 to 495 CE.
+        </p>
+
+        <p>
+            According to historical traditions, Kashyapa selected Sigiriya as
+            the location for his royal residence and constructed a fortified
+            palace complex on and around the rock. The site was carefully
+            designed with impressive gardens, pools, walls and elaborate
+            water-management systems. Visitors approaching the summit passed
+            through a monumental entrance associated with a lion, giving the
+            fortress its famous name, "Lion Rock."
+        </p>
+
+        <p>
+            Sigiriya is also renowned for its ancient paintings and
+            architectural achievements. The famous frescoes depict graceful
+            female figures and demonstrate the artistic skill of the period.
+            The Mirror Wall, once highly polished, contains inscriptions and
+            graffiti left by visitors centuries ago. These writings provide
+            valuable evidence about how people viewed and visited Sigiriya
+            after its royal period.
+        </p>
+
+        <p>
+            Following Kashyapa's death, Sigiriya gradually lost its role as a
+            royal capital and became associated with Buddhist monastic life.
+            Monks occupied the area for centuries before the site was
+            eventually abandoned. In modern times, archaeological research
+            brought renewed attention to Sigiriya, revealing the complexity
+            of its architecture, art and engineering. Today, Sigiriya is
+            recognised as a UNESCO World Heritage Site and remains one of
+            Sri Lanka's most important cultural landmarks.
+        </p>
+
+    </section>
+
+    <section class="photos">
+
+        <h2>Sigiriya Through Photographs</h2>
+
+        <div class="photo-grid">
+
+            <img src="sigiriya.jpg" alt="Sigiriya Rock">
+            <img src="sigiriya-frescoes.jpg" alt="Sigiriya Frescoes">
+            <img src="sigiriya-gardens.jpg" alt="Sigiriya Gardens">
+            <img src="sigiriya-landscape.jpg" alt="Sigiriya Landscape">
+            <img src="sigiriya-lion-paws.jpg" alt="Lion Paws at Sigiriya">
+
+        </div>
+
+    </section>
+
+    <div class="back">
+        <a href="index1.html">← Back to Home</a>
+    </div>
+
+</body>
+</html>
